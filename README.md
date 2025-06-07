@@ -16,6 +16,8 @@
 2. Conformations  of different states should have the same atoms and residues.
 
 
-### Usage：
+## Usage：
 python main.py --nc1_file='state1.nc' --nc2_file='state2.nc' --pdb1_file='state1.pdb' --pdb2_file='state2.pdb' --print_acc=1 --save_models=1 --print_detail=1 --atom_file='atom-important.xlsx' --res_file='res-important.xlsx' 
 
+### TESTS
+Training data for the models in the paper is available in 
