@@ -1,15 +1,15 @@
 # RMLNA
 
 ## Requirements：
-Tensorflow 1.14.0
-Scikit-learn
-numpy
-keras
-lime
-mstraj
-msmbuilder
-xlrt
-XlsxWriter
+- Tensorflow 1.14.0
+- Scikit-learn
+- numpy
+- keras
+- lime
+- mstraj
+- msmbuilder
+- xlrt
+- XlsxWriter
 
 ## Data Preperation Note：
 1. Conformational ensembles of different states extracted from the trajectories based on the density map should first remove all hydrogens to ensure accuracy for the model.
