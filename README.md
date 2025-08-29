@@ -31,4 +31,4 @@ The community network analysis can be done by VMD. Sample **network.config** is 
 
 
 ### NOTE
-Data used in the paper for the workflow are provided in figshare: Kong, Ming (2025). Data for Machine Learning Navigated Allosteric Network to Unveil Biased Allosteric Modulation of GPCRs. figshare. Dataset. https://doi.org/10.6084/m9.figshare.29262185
+Data used in the paper for the workflow are provided in figshare: Kong, Ming (2025). Data for Machine Learning Navigated Allosteric Network to Unveil Biased Allosteric Modulation of GPCRs. figshare. Dataset. https://doi.org/10.6084/m9.figshare.29262185.v3
