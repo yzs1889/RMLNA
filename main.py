@@ -111,14 +111,14 @@ if __name__ == '__main__':
     # =============================================================================
 
     import xlsxwriter
-
+    fre = len(y_all)/2 
     workbook = xlsxwriter.Workbook(atom_file)  
     worksheet = workbook.add_worksheet()
     size = len(importance_pic)
     for i in range(size):
         for j in range(size):
             worksheet.write(i * size + j, 0, i * size + j + 1)
-            worksheet.write(i * size + j, 1, importance_pic[i][j])
+            worksheet.write(i * size + j, 1, importance_pic[i][j] / fre)
     workbook.close()
     print("Atom-scorces Saved.\n")
     # =============================================================================
@@ -149,7 +149,7 @@ if __name__ == '__main__':
 
     #################################################################
     # 
-    fre = len(y_all)/2 
+
    
     import xlrd
 
@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # 
     for row in rsheet.get_rows():
         if (int(row[0].value) - 1) < len(bond):
-            bond[int(row[0].value) - 1].append(row[1].value / fre)  
+            bond[int(row[0].value) - 1].append(row[1].value)  
         else:
             break
 
